@@ -1,0 +1,99 @@
+[Root]
+Most Recent Package=SmpAcc
+
+
+[Package|SmpAcc|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Codes\Accounting\Package
+
+[Package|SmpAcc|Configure DAO ISAMs]
+Applicable=No
+
+[Package|SmpAcc|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|SmpAcc|Files Found]
+
+[Package|SmpAcc|Files Released]
+
+[Package|SmpAcc|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msadox.dll=
+
+[Package|SmpAcc|Out-of-Date Dependency Information]
+C:\WINXP\system32\comctl32.ocx=
+
+[Package|SmpAcc|Files Added]
+
+[Package|SmpAcc|Files Removed]
+
+[Package|SmpAcc|Files In Project]
+C:\Documents and Settings\x\Desktop\SmpAcc.exe=Yes
+C:\WINXP\system32\msvbvm60.dll=Yes
+C:\WINXP\system32\oleaut32.dll=Yes
+C:\WINXP\system32\olepro32.dll=Yes
+C:\WINXP\system32\asycfilt.dll=Yes
+C:\WINXP\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msadox.dll=Yes
+C:\WINXP\system32\comctl32.ocx=Yes
+C:\WINXP\system32\COMCT232.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINXP\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|SmpAcc|Configure Registry Files]
+Applicable=No
+
+[Package|SmpAcc|Configure Remote Servers]
+Applicable=No
+
+[Package|SmpAcc|Install Locations]
+C:\Documents and Settings\x\Desktop\SmpAcc.exe=$(AppPath)
+C:\WINXP\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINXP\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINXP\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINXP\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINXP\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msadox.dll=$(WinSysPath)
+C:\WINXP\system32\comctl32.ocx=$(WinSysPath)
+C:\WINXP\system32\COMCT232.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINXP\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|SmpAcc|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\x\Desktop\SmpAcc.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|SmpAcc|Distribution]
+Type=single
+Size=
+Title=SmpAcc Version 1
+
+[Package|SmpAcc|IconGroups]
+Group0=SmpAcc
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|SmpAcc|SmpAcc]
+Icon1=SmpAcc.exe
+Title1=SmpAcc
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|SmpAcc|Package]
+PackageFolder=D:\Codes\Accounting\Package
+ProjectFolder=D:\Codes\Accounting
+ServerSideCab=
+File1=D:\Codes\Accounting\Package\setup.exe
+File2=D:\Codes\Accounting\Package\Setup.Lst
+File3=D:\Codes\Accounting\Package\SmpAcc.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
